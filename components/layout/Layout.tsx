@@ -11,8 +11,8 @@ export interface PostDetailPageProps {
 const useStyles = makeStyles((theme) => ({
   main:{
     margin:' 3rem auto',
-    width: '90%',
-    maxWwidth:' 40rem',
+    width: '60%',
+    maxWidth:' 40rem',
   }
 }));
 
