@@ -6,7 +6,7 @@ import Card from "../ui/Card";
 import SaveIcon from "@mui/icons-material/Save";
 import { HeroDetailPageProps } from "./HeroItem";
 import { FormProvider, useForm } from "react-hook-form";
-import { InputField } from "../../custom/InpuiField";
+import { InputField } from "../../custom/InputField";
 
 export interface HeroFormPageProps {
   onSubmit: (values: HeroDetailPageProps) => void;
